@@ -160,7 +160,7 @@ export function PostPurchaseFeedback() {
           </div>
         )}
       {/* Action buttons */}
-      <div className="fixed  bottom-0 left-0 right-0 p-4 space-y-3 pb-6">
+      <div className="p-4 space-y-3 pb-6">
         <button
           onClick={handleNewOrder}
           className="w-full py-3 bg-neutral-600 text-white font-bold text-lg hover:bg-neutral-700 transition-colors rounded-[16px]"
