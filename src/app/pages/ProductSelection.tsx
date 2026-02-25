@@ -22,6 +22,7 @@ export function ProductSelection() {
   const searchInputRef = useRef<HTMLInputElement>(null);
 
   const handleProductSelect = (product: typeof products[0]) => {
+    window.scrollTo(0, 0);
     setSelectedProduct(product);
     navigate("/personalizar", { state: { product } });
   };

@@ -61,6 +61,7 @@ export function Customization() {
   };
 
   const handleContinue = () => {
+    window.scrollTo(0, 0);
     navigate("/resumen", { 
       state: { 
         product,

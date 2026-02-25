@@ -19,6 +19,7 @@ export function PostPurchaseFeedback() {
   const [showModal, setShowModal] = useState(false);
 
   const handleNewOrder = () => {
+    window.scrollTo(0, 0);
     navigate("/");
   };
   useEffect(() => {
